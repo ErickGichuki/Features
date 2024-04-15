@@ -1,0 +1,76 @@
+body, h1, h2, p, ol, li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#introduction{
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+#skills{
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+#skills ul{
+    list-style: none;
+}
+#skills li{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#skills li:hover{
+    background-color: #ccc;
+}
+header{
+    background-color: rgb(124, 124, 226);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+h2:hover{
+    background-color: rgb(37, 188, 181);
+    color: white;
+}
+p {
+    margin-bottom: 15px;
+}
+ol{
+    margin-bottom: 15px;
+}
+ol li{
+    margin-bottom: 5px;
+}
+section{
+    border: 1px solid #ccc;
+}
+section:hover{
+    background-color:#ccc;
+}
+#contact{
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        padding: 10px;
+    }
+}
